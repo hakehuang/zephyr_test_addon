@@ -1,0 +1,10 @@
+sample:
+  description: Custom library sample
+  name: custom-lib-sample
+common:
+  tags: extensibility
+  integration_platforms:
+    - custom_plank
+    - qemu_cortex_m3
+tests:
+  sample.lib.custom: {}
